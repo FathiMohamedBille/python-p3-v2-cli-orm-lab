@@ -3,7 +3,7 @@
 from models.__init__ import CONN, CURSOR
 from models.department import Department
 from models.employee import Employee
-import ipdb
+import ipdb #type:ignore
 
 
 def reset_database():
